@@ -1,30 +1,35 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+    <nav class="nav-bar">
+      <img class="nav-logo" src="./assets/media/Logo1.png" alt="Logo">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/biography">biography</router-link> |
+      <router-link to="/novels">novels</router-link> |
+      <router-link to="/contact">contact</router-link>
+    </nav>
+    <router-view/>
 </template>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+@use "./assets/styles/main.scss";
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: aqua;
+  width: 100%;
 }
+.nav-logo{
+  width: 30px;
+  height: 30px;
+  object-position: left;
+  align-items: flex-start;
+}
+a {
+  font-weight: bold;
+  color: var(--color-text-1);
 
-nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+  &.router-link-exact-active {
+      color: var(--color-click-navbar);
   }
 }
 </style>

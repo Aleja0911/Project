@@ -1,5 +1,7 @@
 <template>
-  <h1>aleja y el agropecuario</h1>
+  <header class="home">
+    <h1>"Leer es resistir" <br/>-MM </h1>
+  </header>
 </template>
 
 <script>
@@ -8,3 +10,11 @@ export default {
   name: 'HomeView',
 };
 </script>
+<style>
+.home{
+  background-color:brown ;
+  width: 100%;
+  height: 500px;
+  position: absolute;
+}
+</style>
