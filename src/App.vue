@@ -1,21 +1,41 @@
 <template>
+  <!-- <div :class="getTheme()"> -->
     <nav class="nav-bar">
       <img class="nav-logo" src="./assets/media/Logo1.png" alt="Logo">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/biography">biography</router-link> |
-      <router-link to="/novels">novels</router-link> |
+      <router-link to="/">Home</router-link>
+      <router-link to="/biography">biography</router-link>
+      <router-link to="/novels">novels</router-link>
       <router-link to="/contact">contact</router-link>
     </nav>
     <router-view/>
+    <!-- <JcSwich id="page-style" v-model="isDarkMode"
+       label="Go to dark" labelOFF="Go to ligth" /> -->
+    <footerComp />
+  <!-- </div> -->
 </template>
+
+<script>
+// import { ref } from 'vue';
+import footerComp from './components/footerComp.vue';
+
+export default {
+  components: { footerComp },
+};
+
+// const isDarkMode = ref(false);
+
+// function getTheme() {
+//   return isDarkMode.value ? 'theme--dark' : 'theme--light';
+// }
+</script>
 
 <style lang="scss">
 @use "./assets/styles/main.scss";
 .nav-bar {
   display: flex;
-  justify-content: space-between;
   padding: 10px 20px;
-  background-color: aqua;
+  justify-content: space-evenly;
+  background-color: var(--color-background-1);
   width: 100%;
 }
 .nav-logo{
@@ -27,6 +47,7 @@
 a {
   font-weight: bold;
   color: var(--color-text-1);
+  text-decoration: none;
 
   &.router-link-exact-active {
       color: var(--color-click-navbar);
