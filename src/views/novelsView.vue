@@ -1,9 +1,9 @@
 <template>
     <body>
-        <h1>Novelas</h1>
+        <h1 class="title">Novelas</h1>
         <main class="books">
             <div class="book1">
-                <img src="" alt="libro1">
+                <img src="../assets/media/libro1.jpg" alt="libro1">
             </div>
             <div class="text1">
                 <p>La primera novela de Mario Mendoza es
@@ -18,7 +18,7 @@
             </div>
 
             <div class="book2">
-                <img src="" alt="Libro2">
+                <img src="../assets/media/libro2.gif" alt="Libro2">
             </div>
             <div class="text2">
                 <p>Una novela sobre la oscura presencia
@@ -39,7 +39,7 @@
             </div>
 
             <div class="book3">
-                <img src="" alt="libro3">
+                <img src="../assets/media/libro3.jpg" alt="libro3">
             </div>
             <div class="text3">
                 <p>Un hombre, Tafur, está en prisión.
@@ -53,7 +53,7 @@
             </div>
 
             <div class="book4">
-                <img src="" alt="libro4">
+                <img src="../assets/media/libro4.jpg" alt="libro4">
             </div>
             <div class="text4">
                 <p>Un imitador de Jack el Destripador
@@ -68,7 +68,7 @@
             </div>
 
             <div class="book5">
-                <img src="" alt="libro5">
+                <img src="../assets/media/libro5.jpg" alt="libro5">
             </div>
             <div class="text5">
                 <p>A los siete años, mientras le hacía el
@@ -86,7 +86,7 @@
             </div>
 
             <div class="book6">
-                <img src="" alt="libro6">
+                <img src="../assets/media/libro6.jpg" alt="libro6">
             </div>
             <div class="text6">
                 <p>Diez historias colombianas sobre el
@@ -102,42 +102,98 @@
 </template>
 
 <style>
+.title {
+    text-align: center;
+    padding: 3%;
+}
+img {
+    height: 100%;
+    width: 100%;
+}
 .book1{
     grid-area: a;
+    margin: 5%;
+    padding: 5%;
+    text-align: center;
 }
 .book2{
     grid-area: b;
+    margin: 10%;
+    padding: 5%;
+    text-align: center;
 }
 .book3{
     grid-area: c;
+    margin: 10%;
+    padding: 5%;
+    text-align: center;
 }
 .book4{
     grid-area: d;
+    margin: 10%;
+    padding: 5%;
+    text-align: center;
 }
 .book5{
     grid-area: e;
+    margin: 10%;
+    padding: 5%;
+    text-align: center;
 }
 .book6{
     grid-area: f;
+    margin: 10%;
+    padding: 5%;
+    text-align: center;
 }
 /* textosss */
 .text1{
     grid-area: g;
+    margin: 5%;
+    padding: 5%;
+    text-align: center;
+    background-color: #C4737CE8;
+    font-size: 1.5rem;
 }
 .text2{
     grid-area: h;
+    margin: 10%;
+    padding: 5%;
+    text-align: center;
+    background-color:  #C4737C9E;
+    font-size: 1.5rem;
 }
 .text3{
     grid-area: i;
+    margin: 10%;
+    padding: 5%;
+    text-align: center;
+    background-color: #C4737CE8;
+    font-size: 1.5rem;
 }
 .text4{
     grid-area: j;
+    margin: 10%;
+    padding: 5%;
+    text-align: center;
+    background-color:  #C4737C9E;
+    font-size: 1.5rem;
 }
 .text5{
     grid-area: k;
+    margin: 10%;
+    padding: 5%;
+    text-align: center;
+    background-color: #C4737CE8;
+    font-size: 1.5rem;
 }
 .text6{
     grid-area: l;
+    margin: 10%;
+    padding: 5%;
+    text-align: center;
+    background-color:  #C4737C9E;
+    font-size: 1.5rem;
 }
 .books{
     display: grid;
@@ -166,6 +222,24 @@
         "e k"
         "f l";
     }
+    .book1 {
+        width: 300px;
+    }
+    .book2 {
+        width: 300px;
+    }
+    .book3 {
+        width: 300px;
+    }
+    .book4 {
+        width: 300px;
+    }
+    .book5 {
+        width: 300px;
+    }
+    .book6 {
+        width: 300px;
+    }
 }
 @media (min-width: 900px) {
     .books{
@@ -176,6 +250,24 @@
         "d j"
         "e k"
         "f l";
+    }
+    .book1 {
+        width: 300px;
+    }
+    .book2 {
+        width: 300px;
+    }
+    .book3 {
+        width: 300px;
+    }
+    .book4 {
+        width: 300px;
+    }
+    .book5 {
+        width: 300px;
+    }
+    .book6 {
+        width: 300px;
     }
 }
 </style>
