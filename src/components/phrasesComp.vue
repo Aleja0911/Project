@@ -29,7 +29,7 @@
         </div>
 
         <div class="item6">
-            <h3>“deja atrás todo, no te aferres, libérate de
+            <h3>“Deja atrás todo, no te aferres, libérate de
              la peor carga de todas: tú mismo.” <br/>― Mario
              Mendoza, Akelarre</h3>
         </div>
@@ -57,6 +57,7 @@ export default defineComponent({
     text-align: center;
     background-color: #C4737CE8;
     height: 50%;
+    padding: 3%;
 
     .titlee{
         padding-top: 15px;
@@ -65,14 +66,14 @@ export default defineComponent({
 .item2{
     grid-area: d;
     text-align: center;
-    padding: 15%;
+    padding: 20%;
     margin: 5%;
     background-color: #C4737C9E;
 }
 .item3{
     grid-area: e;
     text-align: center;
-    padding: 15%;
+    padding: 20%;
     margin: 5%;
     background-color: #C4737CE8;
 }
@@ -93,7 +94,7 @@ export default defineComponent({
 .item6{
     grid-area: h;
     text-align: center;
-    padding: 15%;
+    padding: 18%;
     margin: 5%;
     background-color: #C4737C9E;
 }

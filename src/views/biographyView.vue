@@ -5,7 +5,7 @@
         <img class="img-a" src="../assets/media/mario.jpg" alt="cucho mario">
       </div>
       <div class="textos">
-        <h1 style="padding:5%">Mario Mendoza Zambrano</h1>
+        <h1 style="padding:5%;">Mario Mendoza Zambrano</h1>
         <h3>(Bogotá, 10 de Enero 1964)<br/>Escritor y periodista Colombiano.</h3>
       </div>
     </aside>
@@ -61,13 +61,13 @@
   padding-top: 5%;
 }
 .textos{
-  padding-top: 10%;
+  padding-top: 15%;
 }
 .main{
   grid-area: b;
-  background-color: #C4737C9E;
+  background-color:#C4737C9E;
   width: auto;
-  padding: 10%;
+  padding: 5%;
   margin: 2%;
   text-align: justify;
 }
@@ -98,7 +98,7 @@
     "a  b";
   }
   .sidebar{
-    width: 400px;
+    width: 300px;
     height: auto;
   }
   .main{

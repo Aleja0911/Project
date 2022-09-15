@@ -150,7 +150,7 @@ img {
 .text1{
     grid-area: g;
     margin: 5%;
-    padding: 5%;
+    padding: 10%;
     text-align: center;
     background-color: #C4737CE8;
     font-size: 1.5rem;
@@ -158,7 +158,7 @@ img {
 .text2{
     grid-area: h;
     margin: 10%;
-    padding: 5%;
+    padding:5%;
     text-align: center;
     background-color:  #C4737C9E;
     font-size: 1.5rem;
@@ -190,7 +190,7 @@ img {
 .text6{
     grid-area: l;
     margin: 10%;
-    padding: 5%;
+    padding: 8%;
     text-align: center;
     background-color:  #C4737C9E;
     font-size: 1.5rem;

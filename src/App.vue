@@ -3,9 +3,9 @@
     <nav class="nav-bar">
       <img class="nav-logo" src="./assets/media/Logo1.png" alt="Logo">
       <router-link to="/">Home</router-link>
-      <router-link to="/biography">biography</router-link>
-      <router-link to="/novels">novels</router-link>
-      <router-link to="/contact">contact</router-link>
+      <router-link to="biography">Biography</router-link>
+      <router-link to="/novels">Novels</router-link>
+      <router-link to="/contact">Contact</router-link>
     </nav>
     <router-view/>
     <!-- <JcSwich id="page-style" v-model="isDarkMode"
@@ -50,7 +50,7 @@ a {
   text-decoration: none;
 
   &.router-link-exact-active {
-      color: var(--color-click-navbar);
-  }
+  color:#C4737C9E;
+}
 }
 </style>

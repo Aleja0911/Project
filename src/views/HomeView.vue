@@ -6,11 +6,12 @@
     <section class="description">
       <div class="item-1">
         <h1 class="info-title">CITY OF READERS</h1>
-        <p class="info-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Amet repellendus voluptas natus dicta praesentium.
-        Laboriosam nesciunt, incidunt quaerat iste eligendi repudiandae optio
-        repellendus, harum labore aliquid,
-        laudantium quis ratione eos?</p>
+        <p class="info-subtitle">Cree este blog con el fin de plasmar
+          un poco de lo que Mario Mendoza ha compartido con nosotros.
+          Pequeños fragmentos de sus libros con grandes significados,
+          y sus principales novales las cuales lo han llevado a tener mucho éxito
+          Realmente disfrutpo mucho leer cada línea de él y espero que con este blog tú también
+          puedas disfrutarlo. Bienvenido a City Of Readers. </p>
       </div>
       <div class="item-2">
         <img class="logo-img" src="../assets/media/Logo2.png" alt="Logo del sitio">
