@@ -149,4 +149,19 @@ p {
   outline: 0;
   border: 1px solid #97d848;
 }
+@media (max-width: 500px) {
+   .contact_form {
+    margin: auto;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #C4737C9E;
+  }
+}
 </style>

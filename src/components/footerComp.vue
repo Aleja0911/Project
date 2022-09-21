@@ -9,11 +9,11 @@
          </div>
        </section>
        <section class="redes">
-         <div>
-             <a href="https://www.instagram.com/alejaandra._11/">|<iconify-icon icon="logos:instagram-icon"></iconify-icon></a>
+         <div class="ico1">
+             <a href="https://www.instagram.com/alejaandra._11/"><iconify-icon icon="logos:instagram-icon">|</iconify-icon></a>
          </div>
-         <div>
-             <a href="https://github.com/Aleja0911">|<iconify-icon icon="icon-park:github"></iconify-icon></a>
+         <div class="ico2">
+             <a href="https://github.com/Aleja0911"><iconify-icon  icon="icon-park:github">|</iconify-icon></a>
          </div>
       </section>
       <small>&copy; 2022 <b> Aleja0911 </b></small>
@@ -39,6 +39,12 @@ export default defineComponent({
 .redes{
     display: flex;
     justify-content: center;
-    padding: 3%;
+    font-size: 30px;
+}
+.ico1{
+    padding: 2%;
+}
+.ico2{
+    padding: 2%;
 }
 </style>
