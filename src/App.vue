@@ -1,5 +1,5 @@
 <template>
-  <!-- <div :class="getTheme()"> -->
+   <!-- <div :class="getTheme()"> -->
     <nav class="nav-bar">
       <img class="nav-logo" src="./assets/media/Logo1.png" alt="Logo">
       <router-link to="/">Home</router-link>
@@ -13,7 +13,6 @@
     <footerComp />
   <!-- </div> -->
 </template>
-
 <script>
 // import { ref } from 'vue';
 import footerComp from './components/footerComp.vue';
